@@ -70,3 +70,10 @@
 .resume_description{
     margin-block: 20px 30px;
 }
+
+
+@media screen and (max-width: 576px){
+    .container {
+    max-width: 400px;
+    }
+}

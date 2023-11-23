@@ -8,10 +8,10 @@
     text-align: center;
 }
 .services_subtitle{
-    color: var(--title-color);
+    color: var(--primary-color);
     font-size: var(--tiny-font-size);
     font-weight: 700;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     display: block;
 }
 .services_title{
