@@ -18,7 +18,7 @@ function Footer(){
                     </a>
                 </div>
 
-                <p className="footer_copyright text-cs">&copy; 2023 All Rights Reserved</p>
+                <p className="footer_copyright text-cs">&copy; 2024 All Rights Reserved</p>
 
                 <p className="footer_copyright text-cs">Developed By <span>Wiliams Roland</span></p>
             </div>

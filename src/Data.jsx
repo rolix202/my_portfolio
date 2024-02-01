@@ -1,8 +1,8 @@
-import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project2.jpg';
-import Project3 from './assets/project3.jpeg';
-import Project4 from './assets/project4.jpeg';
-import Project5 from './assets/project5.jpg';
+import Project1 from './assets/project1.png';
+import Project2 from './assets/staff_clocking.png';
+import Project3 from './assets/portfolio.png';
+import Project4 from './assets/cv.png';
+import Project5 from './assets/ckpppp.png';
 import Project6 from './assets/project6.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
@@ -59,11 +59,18 @@ export const services = [
       'Key Services:- Frontend Development (HTML, CSS, JavaScript, ReactJs) - Backend Development (Node.js, Express) - Database Design and Implementation - API Integration',
   },  
   {
+    id: 4,
+    name: ' E-commerce Solutions ',
+    title: ' Robust E-commerce Platforms ',
+    description:
+      'Key Services: - Custom Feature Development. - Platform Setup (WordPress, Shopify, WooCommerce). - Payment Gateway Integration. ',
+  },
+  {
     id: 2,
     name: ' Project Management ',
     title: ' Bringing Visions to Life ',
     description:
-      ' Key Services:- Reliable Execution. - Experienced Team. - On-time Delivery. - Efficient Communication. ',
+      ' Key Services:- Reliable Execution. - On-time Delivery. - Efficient Communication. ',
   },
   {
     id: 3,
@@ -73,13 +80,7 @@ export const services = [
       'I go beyond the launch, offering ongoing maintenance, SEO optimization, performance tuning, and security enhancements to keep your website in top shape.',
   },
 
-  {
-    id: 4,
-    name: ' E-commerce Solutions ',
-    title: ' Robust E-commerce Platforms ',
-    description:
-      'Key Services:- Platform Setup (WordPress, Shopify, WooCommerce). - Payment Gateway Integration. - Custom Feature Development. ',
-  },
+  
   {
     id: 5,
     name: ' Coaching ',
@@ -100,42 +101,42 @@ export const skills = [
     {
       id: 2,
       name: 'JavaScript',
-      percentage: 85,
+      percentage: 95,
       description:
         'With a solid foundation in JavaScript, I can develop dynamic and interactive web applications. My expertise includes working with modern frameworks and libraries to enhance user experiences.',
     },
     {
       id: 3,
       name: 'ReactJS',
-      percentage: 60,
+      percentage: 80,
       description:
         'I am proficient in building web applications using ReactJS. I have hands-on experience with component-based architecture, state management, and integrating APIs to create efficient and scalable applications.',
     },
     {
       id: 4,
       name: 'NodeJS',
-      percentage: 70,
+      percentage: 85,
       description:
         'As a NodeJS developer, I specialize in building server-side applications. My skills include creating RESTful APIs, handling asynchronous operations, and optimizing server performance.',
     },
     {
       id: 5,
       name: 'WordPress',
-      percentage: 82,
+      percentage: 98,
       description:
         'I am experienced in WordPress development, including theme customization, plugin integration, and overall website optimization. I create robust and user-friendly WordPress solutions tailored to client needs.',
     },
     {
       id: 6,
       name: 'Bootstrap',
-      percentage: 95,
+      percentage: 75,
       description:
         'Bootstrap is one of my go-to frameworks for front-end development. I leverage its responsive grid system and pre-designed components to create consistent and visually appealing websites with efficiency.',
     },
     {
       id: 7,
       name: 'Tailwind CSS',
-      percentage: 51,
+      percentage: 60,
       description:
         'I have basic proficiency in Tailwind CSS, utilizing its utility-first approach to streamline the styling process. While still expanding my skills in Tailwind, I can efficiently create clean and maintainable styles.',
     },
@@ -145,27 +146,44 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Job',
-    title: 'Zorro',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-  },
-  {
-    id: 2,
-    img: Project2,
     category: 'Volunteer',
-    title: 'Gooir',
+    title: 'Hotel Booking Website',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'I built a cool hotel booking website at Enugu Tech Program. It helps people easily find and book awesome hotels. Check it out to see my coding skills in action!',
   },
   {
     id: 3,
     img: Project3,
     category: 'Personal',
-    title: 'Explore',
+    title: 'My Portfolio Site',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'My portfolio is a concise display of my coding journey. It features projects like hotel booking websites and staff clocking systems, demonstrating my skills and dedication in software development. Explore to see my work in action.',
   },
+  {
+    id: 2,
+    img: Project2,
+    category: 'Personal',
+    title: 'Staff Clocking System',
+    description:
+      'I designed a Staff Clocking System using QR codes for seamless login, sign-in, and sign-out processes. A simple yet effective solution for efficient attendance tracking.',
+  },
+  {
+    id: 2,
+    img: Project4,
+    category: 'Personal',
+    title: 'My CV',
+    description:
+      'My CV offers a quick overview of my academic and professional journey, highlighting skills, education, qualifications, work experience, and more.',
+  },
+  {
+    id: 2,
+    img: Project5,
+    category: 'Volunteer',
+    title: 'Church Youth Directory',
+    description:
+      'I designed a Church Youth Directory website to strengthen our community bonds. It\'s a simple yet powerful tool for connecting and engaging with our youth.',
+  },
+ 
   
 ];
 

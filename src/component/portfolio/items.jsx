@@ -23,7 +23,7 @@ const Items = ({projectItems}) => {
                         <h3 className="portfolio_title">{title} </h3>
                         <p className="portfolio_description">{description} </p>
                         <a href="" className="link">
-                            See Pricing
+                           Details
                             <FaArrowRight className="link_icon"></FaArrowRight>
                         </a>
                         <img src={shapeTwo} alt="" className="shape c_shape" />
