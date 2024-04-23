@@ -4,6 +4,8 @@ import Project3 from './assets/portfolio.png';
 import Project4 from './assets/cv.png';
 import Project5 from './assets/ckpppp.png';
 import Project6 from './assets/project6.jpg';
+import Project7 from './assets/crossborder_home.png';
+import Project8 from './assets/result_checker_home.png'
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -168,7 +170,7 @@ export const projects = [
       'I designed a Staff Clocking System using QR codes for seamless login, sign-in, and sign-out processes. A simple yet effective solution for efficient attendance tracking.',
   },
   {
-    id: 2,
+    id: 4,
     img: Project4,
     category: 'Personal',
     title: 'My CV',
@@ -176,12 +178,28 @@ export const projects = [
       'My CV offers a quick overview of my academic and professional journey, highlighting skills, education, qualifications, work experience, and more.',
   },
   {
-    id: 2,
+    id: 5,
     img: Project5,
     category: 'Volunteer',
     title: 'Church Youth Directory',
     description:
       'I designed a Church Youth Directory website to strengthen our community bonds. It\'s a simple yet powerful tool for connecting and engaging with our youth.',
+  },
+  {
+    id: 7,
+    img: Project7,
+    category: 'Work',
+    title: 'Mini Logistic Portal',
+    description:
+      'A frontend-developed mini logistics website designed for streamlined parcel management. Administrators can easily input and manage parcel details, enhancing logistical operations.',
+  },
+  {
+    id: 8,
+    img: Project8,
+    category: 'Volunteer',
+    title: 'School Result Portal',
+    description:
+      'A user-friendly portal allowing subject teachers to submit results, class teachers to manage students, and administrators to oversee operations.',
   },
  
   
