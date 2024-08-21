@@ -5,7 +5,8 @@ import Project4 from './assets/cv.png';
 import Project5 from './assets/ckpppp.png';
 import Project6 from './assets/project6.jpg';
 import Project7 from './assets/crossborder_home.png';
-import Project8 from './assets/result_checker_home.png'
+import Project8 from './assets/result_checker_home.png';
+import Project9 from './assets/inventory2.png'
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -145,6 +146,15 @@ export const skills = [
 ];
 
 export const projects = [
+  
+  {
+    id: 1,
+    img: Project9,
+    category: 'Volunteer',
+    title: 'Mini Inventory Web App',
+    description:
+      'I created an easy-to-use inventory management web app that helps people keep track of their stock. With this app, users can quickly add, update, or remove items from their inventory, making sure they always know what’s in stock.',
+  },
   {
     id: 1,
     img: Project1,
