@@ -7,7 +7,7 @@ const Items = ({projectItems}) => {
     return (
         <>
             {projectItems.map((projectItem) => {
-                const {id, img, category, title, description} =projectItem;
+                const {id, img, category, link, title, description} =projectItem;
                 return (
                     <motion.div
                     layout
@@ -20,9 +20,9 @@ const Items = ({projectItems}) => {
                             <img src={img} alt="" className="portfolio_img" />
                         </div>
                         <span className="portfolio_category text cs">{category} </span>
-                        <h3 className="portfolio_title">{title} </h3>
+                        <h3 className="portfolio_title">{title}</h3>
                         <p className="portfolio_description">{description} </p>
-                        <a href="" className="link">
+                        <a href={link} className="link">
                            Details
                             <FaArrowRight className="link_icon"></FaArrowRight>
                         </a>

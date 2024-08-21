@@ -3,7 +3,7 @@ import Project2 from './assets/staff_clocking.png';
 import Project3 from './assets/portfolio.png';
 import Project4 from './assets/cv.png';
 import Project5 from './assets/ckpppp.png';
-import Project6 from './assets/project6.jpg';
+import Project6 from './assets/event-ticket.png';
 import Project7 from './assets/crossborder_home.png';
 import Project8 from './assets/result_checker_home.png';
 import Project9 from './assets/inventory2.png'
@@ -152,27 +152,58 @@ export const projects = [
     img: Project9,
     category: 'Volunteer',
     title: 'Mini Inventory Web App',
+    link: 'https://inventory-mgt-app-v1.onrender.com/products',
     description:
       'I created an easy-to-use inventory management web app that helps people keep track of their stock. With this app, users can quickly add, update, or remove items from their inventory, making sure they always know what’s in stock.',
   },
   {
-    id: 1,
+    id: 2,
+    img: Project6,
+    category: 'Volunteer',
+    title: 'Event booking system',
+    link: 'https://ideasfestcalabar.onrender.com/',
+    description:
+      'I built a user-friendly event booking system that allows users to select their preferred ticket categories and book tickets for an event. The platform, developed with the MERN stack, integrates Paystack for secure payment processing, making the ticket booking process smooth and straightforward.',
+  }, 
+  {
+    id: 8,
+    img: Project7,
+    category: 'Work',
+    title: 'Mini Logistic Portal',
+    link: 'https://www.crossborderlogisticsinc.com/',
+    description:
+      'A frontend-developed mini logistics website designed for streamlined parcel management. Administrators can easily input and manage parcel details, enhancing logistical operations.',
+  },
+  {
+    id: 4,
+    img: Project3,
+    category: 'Personal',
+    title: 'My Portfolio Site',
+    link: 'https://oodoroland.vercel.app/',
+    description:
+      'My portfolio is a concise display of my coding journey. It features projects like hotel booking websites and staff clocking systems, demonstrating my skills and dedication in software development. Explore to see my work in action.',
+  },
+  {
+    id: 7,
+    img: Project5,
+    category: 'Volunteer',
+    title: 'Church Youth Directory',
+    link: 'https://ckpodenigboyouth.vercel.app/',
+    description:
+      'I designed a Church Youth Directory website to strengthen our community bonds. It\'s a simple yet powerful tool for connecting and engaging with our youth.',
+  },
+  
+  {
+    id: 3,
     img: Project1,
     category: 'Volunteer',
     title: 'Hotel Booking Website',
     description:
       'I built a cool hotel booking website at Enugu Tech Program. It helps people easily find and book awesome hotels. Check it out to see my coding skills in action!',
   },
+ 
   {
-    id: 3,
-    img: Project3,
-    category: 'Personal',
-    title: 'My Portfolio Site',
-    description:
-      'My portfolio is a concise display of my coding journey. It features projects like hotel booking websites and staff clocking systems, demonstrating my skills and dedication in software development. Explore to see my work in action.',
-  },
-  {
-    id: 2,
+    id: 5,
     img: Project2,
     category: 'Personal',
     title: 'Staff Clocking System',
@@ -180,31 +211,16 @@ export const projects = [
       'I designed a Staff Clocking System using QR codes for seamless login, sign-in, and sign-out processes. A simple yet effective solution for efficient attendance tracking.',
   },
   {
-    id: 4,
+    id: 6,
     img: Project4,
     category: 'Personal',
     title: 'My CV',
     description:
       'My CV offers a quick overview of my academic and professional journey, highlighting skills, education, qualifications, work experience, and more.',
   },
+  
   {
-    id: 5,
-    img: Project5,
-    category: 'Volunteer',
-    title: 'Church Youth Directory',
-    description:
-      'I designed a Church Youth Directory website to strengthen our community bonds. It\'s a simple yet powerful tool for connecting and engaging with our youth.',
-  },
-  {
-    id: 7,
-    img: Project7,
-    category: 'Work',
-    title: 'Mini Logistic Portal',
-    description:
-      'A frontend-developed mini logistics website designed for streamlined parcel management. Administrators can easily input and manage parcel details, enhancing logistical operations.',
-  },
-  {
-    id: 8,
+    id: 9,
     img: Project8,
     category: 'Volunteer',
     title: 'School Result Portal',

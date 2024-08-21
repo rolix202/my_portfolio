@@ -72,3 +72,7 @@
 .portfolio_description{
     min-height: 125px;
 }
+.link{
+    padding-top: 20px;
+    color: var(--primary-color);
+}
